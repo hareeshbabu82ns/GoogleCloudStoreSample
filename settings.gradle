@@ -1,0 +1,5 @@
+include ':app', ':materialcompattheme', ':asyncvolley', ':volley', ':googlecloudstoragelib'
+project(':materialcompattheme').projectDir = new File('../MaterialCompat/materialcompattheme')
+project(':asyncvolley').projectDir = new File('../AsyncVolley/asyncvolleylib')
+project(':volley').projectDir = new File('../AsyncVolley/volley')
+project(':googlecloudstoragelib').projectDir = new File('../gcdatastorelib')
